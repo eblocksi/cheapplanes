@@ -43,7 +43,7 @@ class FlightSearch:
             "max_stopovers": "0",
             "one_per_date": "1",
             "adults": adults,
-            "limit": "5",
+            "limit": "10",
         }
         print(self.params)
 
