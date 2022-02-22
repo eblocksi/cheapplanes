@@ -1,0 +1,102 @@
+{
+    "BKK": {
+        "city": "Bangkok",
+        "airport": "BKK",
+        "price": "$1,475",
+        "date_from": "2022-08-16",
+        "nights_in_dst": 21,
+        "airline": [
+            "TG"
+        ],
+        "date_return": "2022-09-06"
+    },
+    "HKG": {
+        "city": "Hong Kong",
+        "airport": "HKG",
+        "price": "$2,211",
+        "date_from": "2022-09-09",
+        "nights_in_dst": 7,
+        "airline": [
+            "AF"
+        ],
+        "date_return": "2022-09-17"
+    },
+    "ICN": {
+        "city": "Seoul",
+        "airport": "ICN",
+        "price": "$2,071",
+        "date_from": "2022-09-13",
+        "nights_in_dst": 13,
+        "airline": [
+            "OZ"
+        ],
+        "date_return": "2022-09-27"
+    },
+    "HND": {
+        "city": "Tokyo",
+        "airport": "HND",
+        "price": "$1,911",
+        "date_from": "2022-09-19",
+        "nights_in_dst": 21,
+        "airline": [
+            "JL"
+        ],
+        "date_return": "2022-10-11"
+    },
+    "FCO": {
+        "city": "Rome",
+        "airport": "FCO",
+        "price": "$154",
+        "date_from": "2022-09-15",
+        "nights_in_dst": 27,
+        "airline": [
+            "VY"
+        ],
+        "date_return": "2022-10-13"
+    },
+    "ATH": {
+        "city": "Athens",
+        "airport": "ATH",
+        "price": "$200",
+        "date_from": "2022-09-12",
+        "nights_in_dst": 24,
+        "airline": [
+            "GQ"
+        ],
+        "date_return": "2022-10-06"
+    },
+    "JFK": {
+        "city": "New York City",
+        "airport": "JFK",
+        "price": "$761",
+        "date_from": "2022-09-01",
+        "nights_in_dst": 11,
+        "airline": [
+            "VS",
+            "DL"
+        ],
+        "date_return": "2022-09-13"
+    },
+    "LAX": {
+        "city": "Los Angeles",
+        "airport": "LAX",
+        "price": "$2,553",
+        "date_from": "2022-09-15",
+        "nights_in_dst": 25,
+        "airline": [
+            "TN"
+        ],
+        "date_return": "2022-10-10"
+    },
+    "IST": {
+        "city": "Istanbul",
+        "airport": "IST",
+        "price": "$471",
+        "date_from": "2022-09-10",
+        "nights_in_dst": 8,
+        "airline": [
+            "TK"
+        ],
+        "date_return": "2022-09-18"
+    }
+}
