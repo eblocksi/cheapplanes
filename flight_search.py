@@ -45,13 +45,12 @@ class FlightSearch:
             "adults": adults,
             "limit": "10",
         }
-        print(self.params)
 
     def call_api(self):
         # print(f"{self.endpoint}?/{self.headers}")
         response = requests.get(url=self.endpoint, params=self.params, headers=self.headers)
         data = json.loads(response.text)
         # print(response.status_code)
-    
+        data = data['data'][:5]
         with open("flight_data.json", "w") as f:
             json.dump(data, f)

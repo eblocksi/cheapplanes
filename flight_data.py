@@ -11,7 +11,7 @@ class FlightData:
     def load_data(self):
         with open("flight_data.json") as f:
             data = json.load(f)
-        return data["data"]
+        return data
     
     def get_lowest_price(self):
         return self.flight_data[self.ind_flight]["price"]
