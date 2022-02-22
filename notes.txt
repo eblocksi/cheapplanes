@@ -1,0 +1,23 @@
+data [
+    "price"
+    if price < lowest_price
+        nights in NYC: data[lowest_price_x]["nightsInDest"]0
+        airline: data[x]["airlines"]
+        leave_date: data[x]["route"][0]["utc_departure"]
+        return_data: data[x]["route"][1]["utc_departure"]
+
+]
+
+
+What to do next:
+    - Google top 10 busiest airports in the world
+    - Find the average price for a one week stay there
+    - Find the cheapest price for a one week stay there
+    - Store them in all in Google Spreadsheet and a json
+    - Create a json for members
+        - name
+        - email
+        - home city
+        - preferred destination airport
+        - user ID number
+        - user password
