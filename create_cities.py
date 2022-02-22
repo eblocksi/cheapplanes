@@ -17,5 +17,5 @@ airports = {
 }
 
 
-with open('airport_list.json', 'w') as f:
+with open('flight_data/airport_list.json', 'w') as f:
     json.load(airports, f)

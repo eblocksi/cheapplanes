@@ -9,7 +9,7 @@ class FlightData:
         self.lowest_price = self.flight_data[0]["price"]
 
     def load_data(self):
-        with open("flight_data.json") as f:
+        with open("flight_data/flight_data.json") as f:
             data = json.load(f)
         return data
     

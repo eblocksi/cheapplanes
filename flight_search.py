@@ -52,5 +52,5 @@ class FlightSearch:
         data = json.loads(response.text)
         # print(response.status_code)
         data = data['data'][:5]
-        with open("flight_data.json", "w") as f:
+        with open("flight_data/flight_data.json", "w") as f:
             json.dump(data, f)

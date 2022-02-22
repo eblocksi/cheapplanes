@@ -6,7 +6,7 @@ class City_List:
         self.cities_list = self.convert_cities()
 
     def get_cities(self):
-        with open('airport_list.json', 'r') as f:
+        with open('flight_data/airport_list.json', 'r') as f:
             data = json.load(f)
         return data
 
